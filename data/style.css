@@ -1,0 +1,60 @@
+@import "normalize.css";
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  border-top: 2px green solid;
+  border-bottom: 5px green solid;
+}
+
+#main {
+  width: 90%;
+  margin-top: 1em;
+}
+
+#words-to-count {
+  width: 100%;
+  resize: vertical; 
+}
+
+#begin-count {
+  width: 100%;
+  float: right;
+}
+
+.center-margin {
+  margin-top: 0;
+  margin: auto;
+}
+
+.btm-margin10 {
+  margin-bottom: 1em;
+}
+
+#result p {
+  line-height: 1.4em;
+}
